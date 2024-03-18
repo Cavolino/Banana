@@ -65,29 +65,21 @@ L'applicazione comprende tutte le funzionalitfunzionalità descritte dettagliata
     <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> 
         <img src="https://www.mysql.com/common/logos/includes-mysql-125x64.png" alt="mysql" width="60" height="40"/> 
     </a> 
-    <a href="<link-to-gson>" target="_blank" rel="noreferrer"> 
-        <img src="<gson-logo-url>" alt="gson" width="40" height="40"/> 
+    <a href="https://google.github.io/gson/" target="_blank" rel="noreferrer"> 
+        <img src="https://upload.wikimedia.org/wikipedia/commons/archive/c/c1/20230822192910%21Google_%22G%22_logo.svg" alt="gson" width="40" height="40"/> 
     </a> 
-
-<!-- uml -->
-<a href="<link-to-uml>" target="_blank" rel="noreferrer"> 
-    <img src="<uml-logo-url>" alt="uml" width="40" height="40"/> 
-</a> 
-
-<!-- open street map -->
-<a href="https://www.openstreetmap.org/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/openstreetmap/openstreetmap-original-wordmark.svg" alt="openstreetmap" width="40" height="40"/> 
-</a> 
-
-<!-- leaflet -->
-<a href="https://leafletjs.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/leaflet/leaflet-original-wordmark.svg" alt="leaflet" width="40" height="40"/> 
-</a> 
-
-<!-- photon komoot -->
-<a href="https://www.photon.komoot.io/" target="_blank" rel="noreferrer"> 
-    <img src="<photon-komoot-logo-url>" alt="photon komoot" width="40" height="40"/> 
-</a>
+    <a href="https://www.uml.org/" target="_blank" rel="noreferrer"> 
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/UML_logo.svg" alt="uml" width="40" height="40"/> 
+    </a> 
+    <a href="https://www.openstreetmap.org/" target="_blank" rel="noreferrer"> 
+        <img src="https://wiki.openstreetmap.org/w/images/7/79/Public-images-osm_logo.svg" alt="openstreetmap" width="40" height="40"/> 
+    </a> 
+    <a href="https://leafletjs.com/" target="_blank" rel="noreferrer"> 
+        <img src="https://leafletjs.com/docs/images/logo.png" alt="leaflet" width="120" height="40"/> 
+    </a> 
+    <a href="https://www.photon.komoot.io/" target="_blank" rel="noreferrer"> 
+        <img src="https://photon.komoot.io/static/img/photon_logo.png" alt="photon komoot" width="80" height="40"/> 
+    </a>
 
 
 </p>
