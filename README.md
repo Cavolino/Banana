@@ -35,7 +35,6 @@ Free topic's project aiming in the sequent subjects:
 
 ## Some Examples:
 L'applicazione comprende tutte le funzionalitfunzionalità descritte dettagliatamente dal [Documento](/Completo.pdf). È stata rilasciata inoltre una prima implementazione d'esempio per capire il reale funzionamento, ed una prima strutturazione dell'applicativo. 
-Come si puo` notare nelle figure sottostanti sono delineate e mostrate le principali caratteristiche per l'utilizzo come il login, la registrazione e la ricerca degli eventi.
 
 ## Technologies:
 <p align="left">     
