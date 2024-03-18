@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_${WEB_XML_VERSION_FILE}.xsd"
+	version="${WEB_XML_VERSION}">
+
+	<!-- Params -->
+
+	<context-param>
+		<param-name>titolo</param-name>
+		<param-value>Banana</param-value>
+	</context-param>
+
+	<!-- Servlet -->
+	<servlet>
+		<servlet-name>Init</servlet-name>
+		<servlet-class>Servlet.Init</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Init</servlet-name>
+		<url-pattern>/initServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>Servlet.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/loginServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Ricerca</servlet-name>
+		<servlet-class>Servlet.Ricerca</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Ricerca</servlet-name>
+		<url-pattern>/ricerca</url-pattern>
+	</servlet-mapping>
+	
+
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>Servlet.Logout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/logoutServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Registrazione</servlet-name>
+		<servlet-class>Servlet.Registrazione</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Registrazione</servlet-name>
+		<url-pattern>/registrazioneServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Finalize</servlet-name>
+		<servlet-class>Servlet.Finalize</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Finalize</servlet-name>
+		<url-pattern>/finalizeServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ChangePassword</servlet-name>
+		<servlet-class>Servlet.ChangePassword</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePassword</servlet-name>
+		<url-pattern>/changePassword</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>InserisciEvento</servlet-name>
+		<servlet-class>Servlet.InserisciEvento</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InserisciEvento</servlet-name>
+		<url-pattern>/inserisciEvento</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RimuoviEvento</servlet-name>
+		<servlet-class>Servlet.RimuoviEvento</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RimuoviEvento</servlet-name>
+		<url-pattern>/rimuoviEvento</url-pattern>
+	</servlet-mapping>
+		
+	<servlet>
+		<servlet-name>MostraInteresse</servlet-name>
+		<servlet-class>Servlet.MostraInteresse</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MostraInteresse</servlet-name>
+		<url-pattern>/mostraInteresse</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>VerificaOrganizzatore</servlet-name>
+		<servlet-class>Servlet.VerificaOrganizzatore</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>VerificaOrganizzatore</servlet-name>
+		<url-pattern>/verificaOrganizzatore</url-pattern>
+	</servlet-mapping>
+
+	<!-- Welcome -->
+
+	<welcome-file-list>
+		<welcome-file>initServlet</welcome-file>
+	</welcome-file-list>
+
+	<!-- Exceptions -->
+
+	<error-page>
+		<error-code>404</error-code>
+		<location>/errors/notfound.html</location>
+	</error-page>
+
+	<error-page>
+		<exception-type>javax.servlet.ServletException</exception-type>
+		<location>/errors/failure.jsp</location>
+	</error-page>
+
+</web-app>

@@ -1,0 +1,50 @@
+[
+	{
+		"nome": "TigelleBavosi",
+		"organizzatore": "test",
+		"indirizzo": {
+			"via": "Lungomare Arcobaleno",
+			"civico": "43",
+			"citta": "Ravenna",
+			"nazione": "Italia",
+			"latitude": "44.432421",
+			"longitude": "12.12222"
+		}
+	},
+	{
+		"nome": "LaTana",
+		"organizzatore": "test",
+		"indirizzo": {
+			"via": "Pepe",
+			"civico": "1",
+			"citta": "Pesaro",
+			"nazione": "Italia",
+			"latitude": "43.9092100",
+			"longitude": "12.9164000"
+		}
+	},
+	{
+		"nome": "Basese",
+		"organizzatore": "Sindaco54",
+		"indirizzo": {
+			"via": "Lido",
+			"civico": "2",
+			"citta": "Montefelcino",
+			"nazione": "Italia",
+			"latitude": "43.7355",
+			"longitude": "12.8346"
+		}
+	},
+	{
+		"nome": "Basese",
+		"organizzatore": "ciao",
+		"indirizzo": {
+			"via": "Lido",
+			"civico": "2",
+			"citta": "Montefelcino",
+			"nazione": "Italia",
+			"latitude": "43.7355",
+			"longitude": "12.8346"
+		}
+	}
+]

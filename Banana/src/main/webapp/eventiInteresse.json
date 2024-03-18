@@ -1,0 +1,26 @@
+[
+	{
+		"mail": "",
+		"username": "Cavolino",
+		"eventi": [
+			"ws-2110272066"
+		]
+	},
+	{
+		"mail": "pippo@gmailbeans.bean",
+		"username": "test",
+		"eventi": [
+			"ti2034921852",
+			null,
+			null,
+			null
+		]
+	},
+	{
+		"mail": "",
+		"username": "ciao",
+		"eventi": [
+			"ws-2110272066"
+		]
+	}
+]
